@@ -5,8 +5,8 @@ items:
   target: "/actualites/"
   kind: page
   children: []
-- title: Agenda
-  target: "/agenda/"
+- title: Le Festival
+  target: "/festival/"
   kind: page
   children: []
 - title: L'association
