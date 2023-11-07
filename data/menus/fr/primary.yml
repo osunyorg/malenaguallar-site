@@ -13,7 +13,7 @@ items:
   target: "/asso/"
   kind: page
   children: []
-- title: Organisations
+- title: Contact
   target: "/contact/"
   kind: page
   children: []
