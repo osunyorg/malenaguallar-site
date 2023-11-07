@@ -9,8 +9,8 @@ items:
   target: "/agenda/"
   kind: page
   children: []
-- title: Équipe
-  target: "/equipe/"
+- title: L'association
+  target: "/asso/"
   kind: page
   children: []
 - title: Organisations
