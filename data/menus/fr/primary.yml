@@ -14,7 +14,7 @@ items:
   kind: page
   children: []
 - title: Organisations
-  target: "/organisations/"
+  target: "/contacy/"
   kind: page
   children: []
 
