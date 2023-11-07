@@ -7,3 +7,5 @@ params:
     position: hero
   search:
     active: false  
+  logo:
+    header: "/assets/images/logo_lesbi.jpg"
