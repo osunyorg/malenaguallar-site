@@ -1,3 +1,5 @@
+// ACCUEIL 
+
 body,
     background: $white-bg
     #document-header,
@@ -5,7 +7,7 @@ body,
         background: $white-bg
         border-bottom: none
   
-  
+
 header
     #document-header
         .is-sticky
@@ -18,7 +20,18 @@ header
     padding: $padding-blocks
     a
         color: $text-white
-                
+
+.hero--image-square 
+    .content 
+        figure
+            margin-right: $spacing5 
+
+.hero
+    background: $purple-bg
+
+
+
+// FESTIVAL 
 
 .block-page-festival
     a
@@ -28,4 +41,40 @@ header
     background: $white-bg
     color: $text-red
 
+.events__section
+    .hero 
+        min-height: 0
+        margin-bottom: 0
+    .blocks
+        .container
+            background: $purple-bg
+            color: $text-white
+            p
+                width: px2rem(1300)
+                padding: $spacing1
+                text-align: justify
+
+        
+
+// ASSOCIATION
+
+.persons__section
+    .hero 
+        min-height: 0
+        margin-bottom: 0
+    .document-content
+        .blocks
+            .container
+                background: $purple-bg
+                color: $text-white
+                .block-content
+                    padding: 0
+                p
+                    width: px2rem(1300)
+                    padding: $spacing1
+                    text-align: justify
+            .container
+                .taxonomies-persons,
+                .persons
+                    display: none
 
