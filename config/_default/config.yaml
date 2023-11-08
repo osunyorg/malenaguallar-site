@@ -8,5 +8,5 @@ params:
   search:
     active: false
   logo:
-    header: "/assets/images/logo_lesbi.jpg"
-    footer: "/assets/images/logo_lesbi.jpg"
+    header: "/assets/images/logo_lesbi.png"
+    footer: "/assets/images/logo_lesbi.png"
