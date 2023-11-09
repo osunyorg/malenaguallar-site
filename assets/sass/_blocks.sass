@@ -11,8 +11,26 @@ body,
 header
     #document-header
         .is-sticky
-            background: $white-bg
+        background: $white-bg
 
+.menu 
+    .nav-level-1 
+        > li 
+            > a
+                color: $text-red
+
+.page__home
+    header
+        .content
+            justify-content: center
+            hgroup
+                display: flex
+                justify-content: flex-end
+                flex-wrap: wrap
+                width: $width4
+        figure
+            picture
+                width: $width4
 
 .block-page-asso,
 .block-page-actus
@@ -23,24 +41,22 @@ header
 
 .block-page-festival
     color: $text-red 
-    .top,
-    .grid
+    .top, .grid
         a
             color: $text-red 
 
-.hero--image-square 
+// .hero--image-square 
     .content 
         figure
             margin-right: $spacing5 
+            border: solid pink 
 
 .hero
     background: $purple-bg
-
+//
 
 
 // FESTIVAL 
-
-
 
 .hero
     background: $white-bg
