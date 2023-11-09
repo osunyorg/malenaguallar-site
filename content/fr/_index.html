@@ -28,8 +28,6 @@ children:
   - "content/fr/events/_index.html"
   - "content/fr/persons/_index.html"
   - "content/fr/organizations/_index.html"
-  - "content/fr/pages/programmation-2023/_index.html"
-  - "content/fr/pages/ateliers-talks/_index.html"
 meta_description: >
   
 description: >
@@ -80,15 +78,15 @@ contents:
     position: 6
     heading_level: 2
     data:
-      page: 
-        path: "/festival/"
-        slug: "festival"
-        file: "content/fr/events/_index.html"
       show_main_description: false
       show_descriptions: true
       show_images: true
       layout: grid
       pages:
+        - path: "/festival/"
+          slug: "festival"
+          file: "content/fr/events/_index.html"
+          external: false
         - path: "/festival/archives/"
           slug: "archives"
           file: "content/fr/events/archives/_index.html"
