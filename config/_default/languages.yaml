@@ -7,3 +7,4 @@ fr:
   languageName: Français
   permalinks:
     events: /festival/:year-:month-:day-:slug/
+    persons: /asso/:slug/
