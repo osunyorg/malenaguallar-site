@@ -49,7 +49,7 @@ contents:
   - kind: heading
     title: >-
       L'Asso
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: pages
@@ -78,11 +78,29 @@ contents:
           external: false
 
 
+  - kind: block
+    template: pages
+    title: >-
+      Archives
+    ranks:
+      self: 3
+    data:
+      page: 
+        path: "/festival/archives/"
+        slug: "archives"
+        file: "content/fr/events/archives/_index.html"
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
+
+
 
   - kind: heading
     title: >-
       Le Festival
-    position: 2
+    position: 1
     rank: 2
   - kind: block
     template: pages
@@ -109,24 +127,6 @@ contents:
           slug: "edition-2024"
           file: "content/fr/pages/festival/edition-2024/_index.html"
           external: false
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Archives
-    ranks:
-      self: 3
-    data:
-      page: 
-        path: "/festival/archives/"
-        slug: "archives"
-        file: "content/fr/events/archives/_index.html"
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
-      layout: grid
-      pages:
 
 
 
