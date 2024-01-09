@@ -4,7 +4,11 @@ items:
 - title: Le Festival
   target: "/festival/"
   kind: page
-  children: []
+  children:
+  - title: Archives
+    target: "/festival/archives/"
+    kind: page
+    children: []
 - title: L'association
   target: "/asso/"
   kind: page
