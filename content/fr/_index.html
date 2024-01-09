@@ -87,15 +87,28 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Le Festival
     ranks:
-      self: false
+      self: 3
+      children: 4
     data:
+      page: 
+        path: "/festival/"
+        slug: "festival"
+        file: "content/fr/events/_index.html"
       show_main_description: false
-      show_descriptions: false
+      show_descriptions: true
       show_images: false
       layout: grid
       pages:
+        - path: "/festival/archives/"
+          slug: "archives"
+          file: "content/fr/events/archives/_index.html"
+          external: false
+        - path: "/festival/edition-2024/"
+          slug: "edition-2024"
+          file: "content/fr/pages/festival/edition-2024/_index.html"
+          external: false
 
 
 
