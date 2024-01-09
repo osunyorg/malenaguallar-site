@@ -13,6 +13,10 @@ items:
     target: "/festival/edition-2024/"
     kind: page
     children: []
+  - title: Iels parlent de nous
+    target: "/festival/iels-parlent-de-nous/"
+    kind: page
+    children: []
 - title: L'association
   target: "/asso/"
   kind: page
