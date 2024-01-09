@@ -85,15 +85,28 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      L'association
     ranks:
-      self: false
+      self: 3
+      children: 4
     data:
+      page: 
+        path: "/asso/"
+        slug: "asso"
+        file: "content/fr/persons/_index.html"
       show_main_description: false
-      show_descriptions: false
+      show_descriptions: true
       show_images: false
       layout: grid
       pages:
+        - path: "/asso/equipe/"
+          slug: "equipe"
+          file: "content/fr/authors/_index.html"
+          external: false
+        - path: "/asso/valeurs/"
+          slug: "valeurs"
+          file: "content/fr/pages/asso/valeurs/_index.html"
+          external: false
 
 
 
