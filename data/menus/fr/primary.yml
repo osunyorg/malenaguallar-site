@@ -16,7 +16,11 @@ items:
 - title: L'association
   target: "/asso/"
   kind: page
-  children: []
+  children:
+  - title: Équipe
+    target: "/asso/equipe/"
+    kind: page
+    children: []
 - title: Contact
   target: "/contact/"
   kind: page
