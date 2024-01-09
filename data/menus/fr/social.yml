@@ -5,4 +5,8 @@ items:
   target: https://www.instagram.com/lescorpslesbiens_festival/
   kind: url
   children: []
+- title: Facebook
+  target: https://www.facebook.com/profile.php?id=100089944703639
+  kind: url
+  children: []
 
