@@ -21,6 +21,10 @@ items:
     target: "/asso/equipe/"
     kind: page
     children: []
+  - title: Valeurs
+    target: "/asso/valeurs/"
+    kind: page
+    children: []
 - title: Contact
   target: "/contact/"
   kind: page
