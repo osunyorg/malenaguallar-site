@@ -9,6 +9,10 @@ items:
     target: "/festival/archives/"
     kind: page
     children: []
+  - title: Edition 2024
+    target: "/festival/edition-2024/"
+    kind: page
+    children: []
 - title: L'association
   target: "/asso/"
   kind: page
