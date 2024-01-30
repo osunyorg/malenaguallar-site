@@ -5,6 +5,8 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: Français
+  params:
+    social:
   permalinks:
     events: /festival/:year-:month-:day-:slug/
     events_categories: /festival/:slug/
