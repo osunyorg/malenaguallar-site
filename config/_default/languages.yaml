@@ -12,12 +12,15 @@ fr:
     events: /festival/:year-:month-:day-:slug/
     events_categories: /festival/:slug/
     persons: /asso/:slug/
+    persons_categories: /asso/:slug/
   taxonomies:
     administrator: administrators
     author: authors
     diploma: diplomas
     events_category: events_categories
     location: locations
+    organizations_category: organizations_categories
+    persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
