@@ -12,7 +12,7 @@ fr:
     events: /festival/:year-:month-:day-:slug/
     events_categories: /festival/:slug/
     persons: /asso/:slug/
-    persons_categories: /asso/:slug/
+    persons_categories: /asso/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
