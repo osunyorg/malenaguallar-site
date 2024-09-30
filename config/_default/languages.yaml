@@ -11,6 +11,8 @@ fr:
   permalinks:
     events: /festival/:year-:month-:day-:slug/
     events_categories: /festival/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    posts_categories: /actualites/:slug/
     persons: /asso/:slug/
     persons_categories: /asso/categories/:slug/
   taxonomies:
