@@ -9,17 +9,21 @@ items:
     target: "/festival/archives/"
     kind: page
     children: []
+    path: "/events/archives"
     file: content/fr/events/archives/_index.html
   - title: Edition 2024
     target: "/festival/edition-2024/"
     kind: page
     children: []
+    path: "/pages/festival/edition-2024"
     file: content/fr/pages/festival/edition-2024/_index.html
   - title: Iels parlent de nous
     target: "/festival/iels-parlent-de-nous/"
     kind: page
     children: []
+    path: "/pages/festival/iels-parlent-de-nous"
     file: content/fr/pages/festival/iels-parlent-de-nous/_index.html
+  path: "/events"
   file: content/fr/events/_index.html
 - title: L'association
   target: "/asso/"
@@ -29,16 +33,20 @@ items:
     target: "/asso/equipe/"
     kind: page
     children: []
+    path: "/authors"
     file: content/fr/authors/_index.html
   - title: Valeurs
     target: "/asso/valeurs/"
     kind: page
     children: []
+    path: "/pages/asso/valeurs"
     file: content/fr/pages/asso/valeurs/_index.html
+  path: "/persons"
   file: content/fr/persons/_index.html
 - title: Contact
   target: "/contact/"
   kind: page
   children: []
+  path: "/organizations"
   file: content/fr/organizations/_index.html
 
