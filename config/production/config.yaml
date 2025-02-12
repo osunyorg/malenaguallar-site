@@ -2,6 +2,11 @@
 
 baseURL: https://www.lesbihonest.fr
 
+## OSUNY
+osuny:
+  website:
+    id: 6e3f29ad-271e-494c-94d8-f3e652402aaa
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
