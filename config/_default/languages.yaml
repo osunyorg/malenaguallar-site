@@ -6,11 +6,13 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: Français
+  buildFuture: true
   params:
     contact_details:
 
   permalinks:
-    events: /festival/:year-:month-:day-:slug/
+    events: /festival/:year/:slug/
+    exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /festival/:slug/
     pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
