@@ -6,6 +6,13 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Archives
+    target: "/festival/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/events/archives"
+    file: content/fr/events/archives/_index.html
   - title: Edition 2024
     target: "/festival/edition-2024/"
     kind: page
