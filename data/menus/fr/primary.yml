@@ -2,59 +2,80 @@
 title: Menu principal
 items:
 - title: Le Festival
+  slug: le-festival
   target: "/festival/"
   kind: page
   new_tab: false
   children:
   - title: Archives
+    slug: archives
     target: "/festival/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/events/archives"
     file: content/fr/events/archives/_index.html
   - title: Edition 2024
+    slug: edition-2024
     target: "/festival/edition-2024/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/festival/edition-2024"
     file: content/fr/pages/festival/edition-2024/_index.html
   - title: Iels parlent de nous
+    slug: iels-parlent-de-nous
     target: "/festival/iels-parlent-de-nous/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/festival/iels-parlent-de-nous"
     file: content/fr/pages/festival/iels-parlent-de-nous/_index.html
+  descendants_targets:
+  - "/festival/"
+  - "/festival/edition-2024/"
+  - "/festival/iels-parlent-de-nous/"
   path: "/events"
   file: content/fr/events/_index.html
 - title: L'association
+  slug: l-association
   target: "/asso/"
   kind: page
   new_tab: false
   children:
   - title: Équipe
+    slug: equipe
     target: "/asso/equipe/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/authors"
     file: content/fr/authors/_index.html
   - title: Valeurs
+    slug: valeurs
     target: "/asso/valeurs/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/asso/valeurs"
     file: content/fr/pages/asso/valeurs/_index.html
+  descendants_targets:
+  - "/asso/equipe/"
+  - "/asso/valeurs/"
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Contact
+  slug: contact
   target: "/contact/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 

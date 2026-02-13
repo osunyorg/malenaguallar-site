@@ -2,13 +2,17 @@
 title: Liens sociaux
 items:
 - title: Instagram
+  slug: instagram
   target: https://www.instagram.com/lescorpslesbiens_festival/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Facebook
+  slug: facebook
   target: https://www.facebook.com/profile.php?id=100089944703639
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
