@@ -9,7 +9,7 @@ items:
   children:
   - title: Archives
     slug: archives
-    target: "/festival/"
+    target: "/festival/archives/"
     kind: page
     new_tab: false
     children: []
@@ -35,7 +35,7 @@ items:
     path: "/pages/festival/iels-parlent-de-nous"
     file: content/fr/pages/festival/iels-parlent-de-nous/_index.html
   descendants_targets:
-  - "/festival/"
+  - "/festival/archives/"
   - "/festival/edition-2024/"
   - "/festival/iels-parlent-de-nous/"
   path: "/events"
